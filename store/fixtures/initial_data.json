@@ -1,0 +1,722 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$BbOsJMV8hwkyOZguEA3Ztc$2Ko9q859B2H21/pt2ys4o7nTfWzoL30oW/G+YWImzHs=",
+      "last_login": "2021-05-01 21:55:04.890352",
+      "is_superuser": true,
+      "username": "Ruhul",
+      "last_name": "",
+      "email": "ruhulaminparvez007@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-05-01 21:54:14.141547",
+      "first_name": ""
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$vZOeyUvhqhbpzQw1V8u0HD$vaKrJbrtqrLZbmNuQy1hSFRSIxx+k4HzaJ63zCxsq3E=",
+      "last_login": "2021-09-12 18:20:01.307378",
+      "is_superuser": true,
+      "username": "ruhulaminparvez",
+      "last_name": "",
+      "email": "ruhulaminparvez007@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-09-10 21:46:32.832431",
+      "first_name": ""
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "name": "Headphones",
+      "price": "179.0",
+      "digital": false,
+      "image": "headphones.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "name": "Mount of Olives Book",
+      "price": "14.99",
+      "digital": true,
+      "image": "book.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "name": "Camera",
+      "price": "599.99",
+      "digital": true,
+      "image": "camera.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "name": "Watch",
+      "price": "259.0",
+      "digital": false,
+      "image": "apple-watch.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "Shoes",
+      "price": "150.0",
+      "digital": false,
+      "image": "shoes.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "name": "Plant",
+      "price": "99.0",
+      "digital": false,
+      "image": "plant.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "name": "Air Buds",
+      "price": "50.99",
+      "digital": false,
+      "image": "buds.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "name": "Cap",
+      "price": "25.0",
+      "digital": false,
+      "image": "cap.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "name": "Sun Glass",
+      "price": "20.0",
+      "digital": false,
+      "image": "sun-glass.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "name": "Face Wash",
+      "price": "15.99",
+      "digital": false,
+      "image": "facewash.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+      "name": "Speaker",
+      "price": "125.0",
+      "digital": false,
+      "image": "speaker.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+      "name": "Mobile",
+      "price": "100.0",
+      "digital": false,
+      "image": "mobile.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+      "name": "Shirt",
+      "price": "39.99",
+      "digital": false,
+      "image": "shirt.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+      "name": "T-shirt",
+      "price": "25.99",
+      "digital": false,
+      "image": "tshirt.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 15,
+    "fields": {
+      "name": "Travel Bag",
+      "price": "55.99",
+      "digital": false,
+      "image": "travel-bag.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 23,
+    "fields": {
+      "name": "Sneakers",
+      "price": "350.0",
+      "digital": false,
+      "image": "sneakers_Hb2Op4C.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 24,
+    "fields": {
+      "name": "Yellow Shirt",
+      "price": "150.0",
+      "digital": false,
+      "image": "shirt-another_IBd2jh9.jpg"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 25,
+    "fields": {
+      "name": "Book",
+      "price": "50.0",
+      "digital": true,
+      "image": "book-another_K1HOPeg.jpg"
+    }
+  },
+  {
+    "model": "store.customer",
+    "pk": 3,
+    "fields": {
+      "name": "Ruhul Amin Parvez",
+      "email": "ruhulaminparvez007@gmail.com",
+      "user": 2
+    }
+  },
+  {
+    "model": "store.customer",
+    "pk": 4,
+    "fields": {
+      "name": "SABINA",
+      "email": "varsityworks03@gmail.com",
+      "user": null
+    }
+  },
+  {
+    "model": "store.customer",
+    "pk": 5,
+    "fields": {
+      "name": "newUser",
+      "email": "new@gmail.com",
+      "user": null
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 2,
+    "fields": {
+      "date_order": "2021-09-10 21:52:38.087733",
+      "complete": true,
+      "transaction_id": "1631359677.328553",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 3,
+    "fields": {
+      "date_order": "2021-09-11 11:27:59.521077",
+      "complete": true,
+      "transaction_id": "1631359758.336635",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 4,
+    "fields": {
+      "date_order": "2021-09-11 11:29:21.915764",
+      "complete": true,
+      "transaction_id": "1631359775.958279",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 5,
+    "fields": {
+      "date_order": "2021-09-11 11:29:37.470817",
+      "complete": true,
+      "transaction_id": "1631360076.076647",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 6,
+    "fields": {
+      "date_order": "2021-09-11 11:34:37.914888",
+      "complete": true,
+      "transaction_id": "1631360093.823332",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 7,
+    "fields": {
+      "date_order": "2021-09-11 11:34:55.503587",
+      "complete": true,
+      "transaction_id": "1631385779.297626",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 8,
+    "fields": {
+      "date_order": "2021-09-11 18:43:01.777170",
+      "complete": true,
+      "transaction_id": "1631437861.2598",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 9,
+    "fields": {
+      "date_order": "2021-09-12 09:11:03.127201",
+      "complete": true,
+      "transaction_id": "1631469152.192069",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 10,
+    "fields": {
+      "date_order": "2021-09-12 17:52:35.484851",
+      "complete": true,
+      "transaction_id": "1631469305.647263",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 11,
+    "fields": {
+      "date_order": "2021-09-12 17:55:08.173448",
+      "complete": true,
+      "transaction_id": "1631469499.488966",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 12,
+    "fields": {
+      "date_order": "2021-09-12 17:58:21.810624",
+      "complete": true,
+      "transaction_id": "1631471384.985449",
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 13,
+    "fields": {
+      "date_order": "2021-09-12 17:59:41.394552",
+      "complete": true,
+      "transaction_id": "1631469580.957803",
+      "customer": 4
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 14,
+    "fields": {
+      "date_order": "2021-09-12 18:29:45.738018",
+      "complete": false,
+      "transaction_id": null,
+      "customer": 3
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 15,
+    "fields": {
+      "date_order": "2021-09-12 18:31:09.445073",
+      "complete": true,
+      "transaction_id": "1631471469.085241",
+      "customer": 5
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 1,
+    "fields": {
+      "address": "Dhaka",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-11 11:27:57.524742",
+      "customer": 3,
+      "order": 2
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 2,
+    "fields": {
+      "address": "bahubal",
+      "city": "sylhet",
+      "state": "habiganj",
+      "zipcode": "3310",
+      "date_added": "2021-09-11 11:34:53.922185",
+      "customer": 3,
+      "order": 6
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 3,
+    "fields": {
+      "address": "Dhanmondi - 27, Dhaka, Bahubal, Habiganj, Sylhet",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-12 17:52:32.398673",
+      "customer": 3,
+      "order": 9
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 4,
+    "fields": {
+      "address": "Dhanmondi - 27, Dhaka, Bahubal, Habiganj, Sylhet",
+      "city": "Habiganj",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-12 17:55:05.814564",
+      "customer": 3,
+      "order": 10
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 5,
+    "fields": {
+      "address": "Dhanmondi - 27, Dhaka, Bahubal, Habiganj, Sylhet",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-12 17:58:19.795792",
+      "customer": 3,
+      "order": 11
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 6,
+    "fields": {
+      "address": "Dhanmondi - 27, Dhaka, Bahubal, Habiganj, Sylhet",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-12 17:59:42.625208",
+      "customer": 4,
+      "order": 13
+    }
+  },
+  {
+    "model": "store.shippingaddress",
+    "pk": 7,
+    "fields": {
+      "address": "Dhanmondi - 27, Dhaka, Bahubal, Habiganj, Sylhet",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipcode": "3310",
+      "date_added": "2021-09-12 18:29:45.154353",
+      "customer": 3,
+      "order": 12
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 10,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 11:24:53.102046",
+      "order": 2,
+      "product": 1
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 11,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 11:29:12.463963",
+      "order": 3,
+      "product": 3
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 12,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 11:29:24.848208",
+      "order": 4,
+      "product": 2
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 13,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 11:34:29.044059",
+      "order": 5,
+      "product": 2
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 14,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 11:34:42.677511",
+      "order": 6,
+      "product": 6
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 15,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-11 18:42:44.021566",
+      "order": 7,
+      "product": 3
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 16,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 09:10:45.701617",
+      "order": 8,
+      "product": 2
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 17,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 09:10:48.235538",
+      "order": 8,
+      "product": 3
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 19,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 09:27:16.999595",
+      "order": 9,
+      "product": 1
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 20,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 09:27:19.279022",
+      "order": 9,
+      "product": 3
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 23,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:54:17.934614",
+      "order": 10,
+      "product": 14
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 24,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:54:20.218324",
+      "order": 10,
+      "product": 15
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 25,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:54:23.221286",
+      "order": 10,
+      "product": 13
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 27,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 17:57:03.504893",
+      "order": 11,
+      "product": 5
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 28,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:57:08.870293",
+      "order": 11,
+      "product": 6
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 29,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 17:57:13.310989",
+      "order": 11,
+      "product": 14
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 30,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:57:15.444208",
+      "order": 11,
+      "product": 13
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 31,
+    "fields": {
+      "quantity": 3,
+      "date_added": "2021-09-12 17:59:41.641411",
+      "order": 13,
+      "product": 1
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 32,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 17:59:41.889268",
+      "order": 13,
+      "product": 14
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 33,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 17:59:42.094182",
+      "order": 13,
+      "product": 15
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 35,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 18:28:31.637934",
+      "order": 12,
+      "product": 24
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 37,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 18:28:38.812861",
+      "order": 12,
+      "product": 15
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 38,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 18:28:41.065456",
+      "order": 12,
+      "product": 13
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 39,
+    "fields": {
+      "quantity": 2,
+      "date_added": "2021-09-12 18:31:09.734906",
+      "order": 15,
+      "product": 2
+    }
+  },
+  {
+    "model": "store.orderitem",
+    "pk": 40,
+    "fields": {
+      "quantity": 1,
+      "date_added": "2021-09-12 18:31:09.920030",
+      "order": 15,
+      "product": 3
+    }
+  }
+]
