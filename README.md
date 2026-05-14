@@ -1,3 +1,6 @@
+# This is based on the repository https://github.com/ruhulaminparvez/eCommerce.git
+All credit goes to that person.
+
 # eCommerce🛒
 This is a fully functional eCommerce website with a beautiful user interface and backend functionalities.
 
