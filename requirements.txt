@@ -11,3 +11,4 @@ mssql-django
 pyodbc
 python-dotenv
 gunicorn
+whitenoise
